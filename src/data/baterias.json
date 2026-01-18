@@ -1,0 +1,116 @@
+{
+    "baterias": [
+        {
+            "id": 1,
+            "marca": "BYD",
+            "modelo": "Battery-Box Premium LVS 12.0",
+            "capacidad_kwh": 12.0,
+            "tecnologia": "LiFePO4 (LFP)",
+            "precio_cop": "9000000 - 11000000",
+            "voltaje_nominal": 51.2,
+            "ciclos_vida": 6000,
+            "garantia_anos": 10,
+            "profundidad_descarga": 90,
+            "nota": "Modelo disponible en Colombia, precio estimado entre 9-11 millones COP"
+        },
+        {
+            "id": 2,
+            "marca": "Pylontech",
+            "modelo": "US3000C",
+            "capacidad_kwh": 3.55,
+            "tecnologia": "LiFePO4 (LFP)",
+            "precio_cop": "2800000 - 3200000",
+            "voltaje_nominal": 48,
+            "ciclos_vida": 6000,
+            "garantia_anos": 10,
+            "profundidad_descarga": 95,
+            "nota": "Precio referencial basado en mercado europeo convertido"
+        },
+        {
+            "id": 3,
+            "marca": "Huawei",
+            "modelo": "LUNA2000-10-S0",
+            "capacidad_kwh": 10.0,
+            "tecnologia": "Litio-Ion",
+            "precio_cop": "8000000 - 10000000",
+            "voltaje_nominal": 600,
+            "ciclos_vida": 5000,
+            "garantia_anos": 10,
+            "profundidad_descarga": 100,
+            "nota": "Modelo disponible en Colombia, precio estimado 8-10 millones COP"
+        },
+        {
+            "id": 4,
+            "marca": "Pylontech",
+            "modelo": "US5000",
+            "capacidad_kwh": 4.8,
+            "tecnologia": "LiFePO4 (LFP)",
+            "precio_cop": "3800000 - 4500000",
+            "voltaje_nominal": 48,
+            "ciclos_vida": 6000,
+            "garantia_anos": 10,
+            "profundidad_descarga": 95,
+            "nota": "Precio estimado por capacidad vs US3000C"
+        },
+        {
+            "id": 5,
+            "marca": "BYD",
+            "modelo": "Battery-Box Premium HVS 10.2",
+            "capacidad_kwh": 10.24,
+            "tecnologia": "LiFePO4 (LFP)",
+            "precio_cop": "8000000 - 9000000",
+            "voltaje_nominal": 512,
+            "ciclos_vida": 6000,
+            "garantia_anos": 10,
+            "profundidad_descarga": 90,
+            "nota": "Modelo disponible en Colombia, precio estimado 8-9 millones COP"
+        },
+        {
+            "id": 6,
+            "marca": "Goodwe",
+            "modelo": "Lynx Home F G2 13.8",
+            "capacidad_kwh": 13.8,
+            "tecnologia": "LiFePO4 (LFP)",
+            "precio_cop": "Consultar distribuidor",
+            "voltaje_nominal": 358,
+            "ciclos_vida": 6000,
+            "garantia_anos": 10,
+            "profundidad_descarga": 90,
+            "nota": "Información limitada en mercado colombiano"
+        }
+    ],
+    "baterias_alternativas_colombia": [
+        {
+            "id": 7,
+            "marca": "MUST",
+            "modelo": "LP18-48100",
+            "capacidad_kwh": 4.8,
+            "tecnologia": "LiFePO4 (LFP)",
+            "precio_cop": 4391000,
+            "voltaje_nominal": 48,
+            "ciclos_vida": 6000,
+            "garantia_anos": "Consultar",
+            "profundidad_descarga": 90,
+            "disponibilidad": "En oferta en EcoZaque"
+        },
+        {
+            "id": 8,
+            "marca": "Growatt",
+            "modelo": "HOPE 5.0L-B1",
+            "capacidad_kwh": 5.0,
+            "tecnologia": "Litio",
+            "precio_cop": 5569000,
+            "voltaje_nominal": 48,
+            "ciclos_vida": "Consultar",
+            "garantia_anos": "Consultar",
+            "profundidad_descarga": "Consultar",
+            "disponibilidad": "Disponible en EcoZaque"
+        }
+    ],
+    "rango_precios_mercado_colombia": {
+        "baterias_pequenas_1_3kwh": "258000 - 1653000",
+        "baterias_medianas_4_6kwh": "3500000 - 6000000",
+        "baterias_grandes_10_15kwh": "8000000 - 12000000",
+        "nota": "Precios varían según distribuidor, capacidad y tecnología"
+    }
+}

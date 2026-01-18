@@ -1,0 +1,221 @@
+{
+    "protecciones_dc": {
+        "descripcion": "Protecciones lado DC según RETIE y NTC 2050",
+        "componentes": [
+            {
+                "id": "dps_dc_600v",
+                "nombre": "Descargador de Sobretensión DC Tipo II 600V",
+                "marca_referencia": "Clamper / ABB",
+                "precio_cop": 280000,
+                "cantidad_por_string": 1,
+                "nota": "Obligatorio en zonas de alta actividad isoceraunica (Casanare, Llanos)"
+            },
+            {
+                "id": "portafusible_dc",
+                "nombre": "Portafusible DC 1000V con Fusible gPV 15A",
+                "marca_referencia": "Schneider / ABB",
+                "precio_cop": 85000,
+                "cantidad_por_string": 2,
+                "nota": "Par positivo/negativo por string"
+            },
+            {
+                "id": "fusible_gpv_15a",
+                "nombre": "Fusible gPV 15A 1000VDC (repuesto)",
+                "marca_referencia": "Bussmann / ABB",
+                "precio_cop": 25000,
+                "cantidad_por_string": 2,
+                "nota": "Fusibles de respaldo"
+            },
+            {
+                "id": "interruptor_seccionador_dc",
+                "nombre": "Interruptor Seccionador DC 32A 1000V",
+                "marca_referencia": "ABB / Schneider",
+                "precio_cop": 180000,
+                "cantidad_base": 1,
+                "nota": "Corte seguro para mantenimiento"
+            },
+            {
+                "id": "caja_combinadora",
+                "nombre": "Caja Combinadora String Box 2-4 entradas",
+                "marca_referencia": "ABB / Schneider",
+                "precio_cop": 350000,
+                "cantidad_base": 1,
+                "nota": "Tablero con protecciones integradas para sistemas pequeños"
+            }
+        ],
+        "costo_minimo_sistema_pequeno": 700000,
+        "costo_por_string_adicional": 120000
+    },
+    "protecciones_ac": {
+        "descripcion": "Protecciones lado AC según RETIE y NTC 2050",
+        "componentes": [
+            {
+                "id": "breaker_bipolar_20a",
+                "nombre": "Breaker Termomagnético Bipolar 2x20A",
+                "marca_referencia": "Schneider / ABB / Siemens",
+                "precio_cop": 45000,
+                "cantidad_base": 1,
+                "nota": "Protección principal AC"
+            },
+            {
+                "id": "dps_ac_monofasico",
+                "nombre": "DPS AC Monofásico/Bifásico Tipo II",
+                "marca_referencia": "Clamper / ABB",
+                "precio_cop": 120000,
+                "cantidad_base": 1,
+                "nota": "Protección contra sobretensiones red"
+            },
+            {
+                "id": "tablero_distribucion",
+                "nombre": "Tablero de Distribución 4-8 circuitos",
+                "marca_referencia": "Schneider / Legrand",
+                "precio_cop": 180000,
+                "cantidad_base": 1,
+                "nota": "Gabinete para protecciones AC"
+            },
+            {
+                "id": "medidor_energia_bidireccional",
+                "nombre": "Espacio para Medidor Bidireccional",
+                "marca_referencia": "N/A",
+                "precio_cop": 0,
+                "cantidad_base": 1,
+                "nota": "El medidor lo provee el operador de red"
+            }
+        ],
+        "costo_base": 345000
+    },
+    "estructura_montaje": {
+        "descripcion": "Sistema de montaje y anclajes según tipo de techo",
+        "componentes": [
+            {
+                "id": "riel_aluminio_2m",
+                "nombre": "Riel de Aluminio Perforado 2m",
+                "marca_referencia": "K2 Systems / IronRidge",
+                "precio_cop": 75000,
+                "cantidad_por_panel": 0.5,
+                "nota": "Un riel por cada 2 paneles aprox."
+            },
+            {
+                "id": "clip_final",
+                "nombre": "Clip de Fijación Final (End Clamp)",
+                "marca_referencia": "K2 / Genérico",
+                "precio_cop": 8000,
+                "cantidad_por_panel": 2,
+                "nota": "Para extremos del arreglo"
+            },
+            {
+                "id": "clip_medio",
+                "nombre": "Clip de Fijación Medio (Mid Clamp)",
+                "marca_referencia": "K2 / Genérico",
+                "precio_cop": 6000,
+                "cantidad_por_panel": 2,
+                "nota": "Para unión entre paneles"
+            },
+            {
+                "id": "gancho_teja",
+                "nombre": "Gancho para Teja (Tile Hook) Acero Inox",
+                "marca_referencia": "K2 / Genérico",
+                "precio_cop": 35000,
+                "cantidad_por_panel": 2,
+                "nota": "Para techos de teja de barro o concreto"
+            },
+            {
+                "id": "tornilleria_inox",
+                "nombre": "Kit Tornillería Acero Inoxidable",
+                "marca_referencia": "Genérico",
+                "precio_cop": 15000,
+                "cantidad_por_panel": 1,
+                "nota": "Tornillos, tuercas y arandelas por panel"
+            }
+        ],
+        "costo_base": 150000,
+        "costo_por_panel": 95000
+    },
+    "cableado": {
+        "descripcion": "Cableado fotovoltaico certificado",
+        "componentes": [
+            {
+                "id": "cable_solar_10awg",
+                "nombre": "Cable Solar DC 10AWG 1000V (por metro)",
+                "marca_referencia": "Centelsa / Nexans",
+                "precio_cop": 8500,
+                "metros_por_panel": 8,
+                "nota": "Cable certificado UV y resistente a intemperie"
+            },
+            {
+                "id": "conector_mc4_par",
+                "nombre": "Par Conectores MC4 (Macho + Hembra)",
+                "marca_referencia": "Stäubli / Genérico",
+                "precio_cop": 15000,
+                "cantidad_por_panel": 1,
+                "nota": "Conectores IP67 para paneles"
+            },
+            {
+                "id": "cable_ac_10awg",
+                "nombre": "Cable AC THHN 10AWG (por metro)",
+                "marca_referencia": "Centelsa / Procables",
+                "precio_cop": 4500,
+                "metros_base": 15,
+                "nota": "Conexión inversor a tablero principal"
+            },
+            {
+                "id": "canaleta_pvc",
+                "nombre": "Canaleta PVC 40x60mm (por metro)",
+                "marca_referencia": "Dexson / Genérico",
+                "precio_cop": 12000,
+                "metros_por_panel": 2,
+                "nota": "Para ruteo ordenado de cables"
+            }
+        ],
+        "costo_base": 120000,
+        "costo_por_panel": 95000
+    },
+    "puesta_tierra": {
+        "descripcion": "Sistema de puesta a tierra según RETIE",
+        "componentes": [
+            {
+                "id": "varilla_copperweld",
+                "nombre": "Varilla Copperweld 5/8\" x 2.4m",
+                "marca_referencia": "Copperweld",
+                "precio_cop": 85000,
+                "cantidad_base": 2,
+                "nota": "Mínimo 2 para sistemas residenciales"
+            },
+            {
+                "id": "conductor_tierra_6awg",
+                "nombre": "Conductor de Tierra 6AWG Cu Desnudo (15m)",
+                "marca_referencia": "Centelsa",
+                "precio_cop": 95000,
+                "cantidad_base": 1,
+                "nota": "Interconexión de varillas y equipos"
+            },
+            {
+                "id": "conector_mecanico",
+                "nombre": "Conector Mecánico Tierra",
+                "marca_referencia": "Burndy / Genérico",
+                "precio_cop": 25000,
+                "cantidad_base": 4,
+                "nota": "Conexiones a varillas y equipos"
+            },
+            {
+                "id": "medicion_resistencia",
+                "nombre": "Medición y Certificación Resistencia (<25Ω)",
+                "marca_referencia": "Servicio profesional",
+                "precio_cop": 80000,
+                "cantidad_base": 1,
+                "nota": "Incluido en certificación RETIE"
+            }
+        ],
+        "costo_fijo": 390000
+    },
+    "resumen_costos_referencia": {
+        "sistema_4_paneles_2kw": {
+            "protecciones_dc_ac": "1.045.000 - 1.200.000",
+            "estructura_montaje": "530.000 - 650.000",
+            "cableado": "500.000 - 600.000",
+            "puesta_tierra": "350.000 - 420.000",
+            "total_accesorios": "2.425.000 - 2.870.000"
+        },
+        "nota": "Precios de referencia mercado colombiano enero 2026"
+    }
+}
